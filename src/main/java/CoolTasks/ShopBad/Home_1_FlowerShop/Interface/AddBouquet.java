@@ -1,4 +1,4 @@
-package Home_1_FlowerShop.Interface;
+package CoolTasks.ShopBad.Home_1_FlowerShop.Interface;
 
 
 public interface AddBouquet {

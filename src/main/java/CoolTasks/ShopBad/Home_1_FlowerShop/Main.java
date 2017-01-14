@@ -1,4 +1,4 @@
-package Home_1_FlowerShop;
+package CoolTasks.ShopBad.Home_1_FlowerShop;
 
 
 public class Main {

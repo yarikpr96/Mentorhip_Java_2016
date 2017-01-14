@@ -1,6 +1,6 @@
-package Home_1_FlowerShop.Interface;
+package CoolTasks.ShopBad.Home_1_FlowerShop.Interface;
 
-import Home_1_FlowerShop.Flower;
+import CoolTasks.ShopBad.Home_1_FlowerShop.Flower;
 
 
 public interface FindFlower {

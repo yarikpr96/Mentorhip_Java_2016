@@ -1,7 +1,7 @@
-package Home_1_FlowerShop;
+package CoolTasks.ShopBad.Home_1_FlowerShop;
 
-import Home_1_FlowerShop.Interface.AddBouquet;
-import Home_1_FlowerShop.Interface.FindFlower;
+import CoolTasks.ShopBad.Home_1_FlowerShop.Interface.AddBouquet;
+import CoolTasks.ShopBad.Home_1_FlowerShop.Interface.FindFlower;
 import lombok.Data;
 
 import java.util.ArrayList;

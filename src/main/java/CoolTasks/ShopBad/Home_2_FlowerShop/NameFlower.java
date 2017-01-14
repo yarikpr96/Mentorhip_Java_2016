@@ -1,4 +1,4 @@
-package Home_2_FlowerShop;
+package CoolTasks.ShopBad.Home_2_FlowerShop;
 
 /**
  * Created by Ярослав on 25.11.2016.
