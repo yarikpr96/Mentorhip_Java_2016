@@ -11,6 +11,6 @@ public class RibbonDecorator extends ItemDecorator {
     }
 
     public String getDescription() {
-        return item.getDescription() + " in ribbon wrap";
+        return item.getDescription() + " in ribbon";
     }
 }
