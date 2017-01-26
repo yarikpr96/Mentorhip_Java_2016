@@ -3,8 +3,9 @@ package Final_Flower_Shop;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Observable;
 
-public class FlowerBucket implements Item {
+public class FlowerBucket extends Observable implements Item {
     List<Flower> flowerList = new LinkedList<>();
 
     public FlowerBucket(List<Flower> flowerList) {
@@ -30,11 +31,13 @@ public class FlowerBucket implements Item {
 
     public void addFlower(Flower flower) {
         flowerList.add(flower);
+        super.setChanged();
     }
 
     public double getPrice() {
         double priceSum = flowerList.stream().map(Flower::getPrice).reduce((x, y) -> x + y).get();
 //        System.out.println("Ціна букету: " + " " + priceSum);
+        super.setChanged();
         return priceSum;
     }
 

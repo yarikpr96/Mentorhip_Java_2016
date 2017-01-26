@@ -4,7 +4,7 @@ package Final_Flower_Shop;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Order {
+public class Order  {
     private List<Item> items = new LinkedList<>();
     private IPayment payment;
     private IDelivery delivery;
@@ -48,4 +48,5 @@ public class Order {
 
     }
 
-   }
+
+}
